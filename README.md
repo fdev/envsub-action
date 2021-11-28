@@ -1,6 +1,6 @@
 # Environment Substitute Action 🧑‍🏫
 
-File-level environment variable substitution using [envsub](https://github.com/danday74/envsub) that works with any format (HTML, JSON, etc.) and supports [multiple syntaxes](#Supported syntaxes).
+File-level environment variable substitution using [envsub](https://github.com/danday74/envsub) that works with any format (HTML, JSON, etc.) and supports [multiple syntaxes](#supported-syntaxes).
 
 
 ## Usage
@@ -25,7 +25,7 @@ For a detailed explanation on the behavior, restrictions and example usage pleas
 | `templateFile` | Template file containing environment variable placeholders.                             |               | :heavy_check_mark: |
 | `outputFile`   | Output file where the result should be written (leave empty to overwrite templateFile). |               |        :x:         |
 | `protect`      | Don't substitute non-existent environment variable placeholders.                        |               |        :x:         |
-| `syntax`       | Environment variable placeholder [syntax](#Supported syntaxes).                         | `dollar-both` |        :x:         |
+| `syntax`       | Environment variable placeholder [syntax](#supported-syntaxes).                         | `dollar-both` |        :x:         |
 
 
 ### Supported syntaxes
