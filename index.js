@@ -13,8 +13,10 @@ async function run() {
     await envsub({
       templateFile,
       outputFile,
-      protect,
-      syntax,
+      options: {
+        protect,
+        syntax,
+       }
     })
   }
   catch (err) {
