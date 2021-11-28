@@ -1,0 +1,16 @@
+{
+  "name": "envsub-action",
+  "version": "1.0.0",
+  "description": "Environment variable substitution using envsub.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdev/envsub-action.git"
+  },
+  "author": "Folkert de Vries",
+  "homepage": "https://github.com/fdev/envsub-action",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "envsub": "^4.0.7"
+  }
+}

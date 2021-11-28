@@ -1,0 +1,22 @@
+name: "Environment Substitute Action"
+description: "Environment variable substitution using envsub"
+author: "fdev"
+
+inputs:
+  templateFile:
+    description: "Template file containing environment variable placeholders"
+    required: true
+  outputFile:
+    description: "Output file where the result should be written (leave empty to overwrite templateFile)"
+    required: false
+  protect:
+    description: "Don't substitute non-existent environment variable placeholders"
+    required: false
+  syntax:
+    description: "Environment variable placeholder syntax"
+    required: false
+    default: "dollar-both"
+
+runs:
+  using: "node12"
+  main: "index.js"
