@@ -7,7 +7,7 @@ async function run() {
   try {
     const templateFile = core.getInput('templateFile', { required: true })
     const outputFile = core.getInput('outputFile')
-    const protect = core.getBooleanInput('export')
+    const protect = core.getBooleanInput('protect')
     const syntax = core.getInput('syntax')
 
     await envsub({
